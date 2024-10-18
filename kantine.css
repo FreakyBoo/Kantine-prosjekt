@@ -1,24 +1,46 @@
-.head, body {
+/* Setter skriftstil for hele dokumentet */
+head, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.tittel{
+/* Sentraliserer hovedtittelen */
+.tittel {
     text-align: center;
 }
 
-
-.li, a{
+/* Stil for både <li> og <a> elementer */
+li, a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
-    
 }
 
-a:hover{
+/* Stil ved hover-effekt på lenker */
+a:hover {
     background-color: rgba(0, 0, 0, 0.725);
     color: white;
     font-size: 25px;
 }
 
-.bakgrunn{
-    top: 100px;
+/* Bakgrunnsbilde for #bakgrunn-diven */
+#bakgrunn {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtg-7g-P4nXzIVplMfGW78rgPm8J1ASr4uQ&s');
+    background-size: cover;
+    display: flex;
+    width: 100vw;   /* Full bredde av synlig område */
+    height: 100vh;  /* Full høyde av synlig område */
+}
+
+/* Dark mode koder */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode a {
+    color: #ddd;
+}
+
+body.dark-mode a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
 }

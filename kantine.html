@@ -2,26 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="kantine.css">
-    <title>Akademiet Heltberg Bislett Kantine</title>
-</head>
-<h1 class="tittel">Akademiet Heltberg Bislett VGS kantine</h1>
-<body>
     
-    <div class="knapp">
-    <button class="">
-        <li><a href="meny.html">Meny</a></li>
-        <li><a href="ukeplan.html">Uke-plan</a></li>
-        <li><a href="kontakt.html">Kontakter</a></li>
-        <li><a href="akademiet.html">Akademiet Heltberg VGS</a></li>
-      </button>
-    </div>
-    <div class="bakgrunn">
-        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQGn-ygcqTEZVQ/company-logo_200_200/company-logo_200_200/0/1706690172808/akademiet_vgs_logo?e=2147483647&v=beta&t=uKIsww4NQr8oVDA-YN6FLJvXkWh_DvrcXIucL1ZjkdU" alt="akademietlogo">
+    <title>Akademiet Heltberg Bislett Kantine</title>
+ 
+    <link rel="stylesheet" href="kantine.css">
+</head>
+<body>
+  
+    <h1 class="tittel">Akademiet Heltberg Bislett VGS kantine</h1>
+
+    <nav>
+        <!-- liste for å sortere lenkene -->
+        <ul class="knapp">
+            <!-- Lister som inneholder en HTML hver -->
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="ukeplan.html">Uke-plan</a></li>
+            <li><a href="kontakt.html">Kontakter</a></li>
+            <li><a href="akademiet.html">Akademiet Heltberg VGS</a></li>
+        </ul>
+    </nav>
+    <!-- Mørke modus knapp, blir aktivert i JS koden-->
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <!-- Tom div kode for bakgrunnsinnhold som vil aktiveres i CSS filen -->
+    <div id="bakgrunn">
         
     </div>
+
+    
     <script src="kantine.js"></script>
 </body>
 </html>
