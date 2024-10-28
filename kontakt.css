@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.meny {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2 {
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+
