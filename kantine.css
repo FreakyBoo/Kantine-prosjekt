@@ -21,14 +21,18 @@ a:hover {
     font-size: 25px;
 }
 
-/* Bakgrunnsbilde for #bakgrunn-diven */
-#bakgrunn {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtg-7g-P4nXzIVplMfGW78rgPm8J1ASr4uQ&s');
-    background-size: cover;
-    display: flex;
-    width: 100vw;   /* Full bredde av synlig område */
-    height: 100vh;  /* Full høyde av synlig område */
+/* Bakgrunns bilde*/
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.akademiet.no/wp-content/uploads/2023/04/akademiet_oransje_rgb-1000x398.png");
+    background-position: center;
+    background-size: 50% auto; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
+
 
 /* Dark mode koder */
 body.dark-mode {
