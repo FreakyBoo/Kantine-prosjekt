@@ -2,6 +2,17 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.akademiet.no/wp-content/uploads/2023/04/akademiet_oransje_rgb-1000x398.png");
+    background-position: center;
+    background-size: 50% auto; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
 .meny {
     display: flex;
     justify-content: space-around; 
