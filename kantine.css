@@ -54,3 +54,15 @@ h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:darkorange
 }
+
+footer {
+    text-align:center;
+    padding: 3px;
+    background-color: rgb(52, 46, 46);
+    color: white;
+    position: absolute; 
+    bottom: 0; 
+    
+    z-index: 10;
+    width: 100%;
+  }
