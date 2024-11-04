@@ -1,28 +1,41 @@
-/* Setter skriftstil for hele dokumentet */
+h1 {
+    text-align: center;
+}
+
 head, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Sentraliserer hovedtittelen */
+´
 .tittel {
     text-align: center;
 }
 
-/* Stil for både <li> og <a> elementer */
-li, a {
+.knapp, li, a {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
     color: darkorange;
+    
 }
 
-/* Stil ved hover-effekt på lenker */
+.knapp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin-top: 100%;
+  }
+
 a:hover {
     background-color: rgba(0, 0, 0, 0.725);
     color: white;
     font-size: 25px;
 }
 
-/* Bakgrunns bilde*/
+
 body {
     background-color: #f4f4f4;
     margin: 0;
