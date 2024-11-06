@@ -6,11 +6,12 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image: url("https://www.akademiet.no/wp-content/uploads/2023/04/akademiet_oransje_rgb-1000x398.png");
     background-position: 50% 15%;
     background-size: 25% auto; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
-}
+}   
 
 .knapp, li, a {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -25,15 +26,10 @@ body {
     padding: 0;
   }
 
-.knapp, li {
+  li {
     display: inline;
     margin-top: 100%;
   }
-
-p{
-    font-family:sans-serif;
-    margin: 20px;
-}
 
 a:hover {
     background-color: rgba(0, 0, 0, 0.725);
@@ -41,39 +37,46 @@ a:hover {
     font-size: 25px;
 }
 
-.meny {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    margin-top: 50px;
-}
-
-.logo {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    margin-top: 50px;
-    height: 50px;
-    width:auto;
-}
-
-.logo img {
-    width: 50px;
-    height: 50px; 
-}
-
-h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:darkorange
-}
-
-h2 {
-    margin: 0; 
-    padding: 0;
-}
-
-section{
+.container {
     text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.ukeplan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dag {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dag:hover {
+    background-color: #45a049;
+}
+
+.meny {
+    display: none;
+    text-align: left;
+    color: #333;
+}
+
+.meny h2 {
+    margin-top: 0;
 }
 
 body.dark-mode {
@@ -95,7 +98,7 @@ footer {
     padding: 3px;
     background-color: rgb(52, 46, 46);
     color: white;
-    position: fixed; 
+    position: absolute; 
     bottom: 0; 
     z-index: 10;
     width: 100%;

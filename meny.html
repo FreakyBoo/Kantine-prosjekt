@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="meny.css" />
+    <title>Restaurant Menu</title>
+  </head>
+  <body>
+    <h1>Ukens Meny</h1>
+    <nav>
+        <!-- liste for å sortere lenkene -->
+        <ul class="knapp">
+            <!-- Lister som inneholder en HTML hver -->
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="ukeplan.html">Uke-plan</a></li>
+            <li><a href="kantine.html">Kantine</a></li>
+            <li><a href="akademiet.html">Akademiet Heltberg VGS</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+      <div class="menu">
+        <h2 class="menu-group-heading">Frokost</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="https://www.tine.no/_/recipeimage/w_1600,h_900,c_fill,x_3122,y_1756,g_xy_center/recipeimage/z5fmr9uwvafsr6n2s4bt.jpg"
+              alt="Havregrøt med frukt og nøtter"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Havregrøt med frukt og nøtter</span>
+                <span class="menu-item-price">25kr</span>
+              </h3>
+              <p class="menu-item-desc">
+                Havregrøt toppet med bær, bananbiter og et dryss av hakkede nøtter, eventuelt med litt honning.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://www.axa.no/siteassets/2.-axa.no/3.-recept/teaser-yoghurt-med-granola-og-bar.jpg"
+              alt="Yoghurt med granola og frukt"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Yoghurt med granola og frukt</span>
+                <span class="menu-item-price">25kr</span>
+              </h3>
+              <p class="menu-item-desc">
+                Naturell eller smakssatt yoghurt med granola, ferske bær og honning.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://d2y9vkode0okis.cloudfront.net/product-types_images/compressed/243-88-1665811569250-2298.jpg"
+              alt="Grove rundstykker med pålegg"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Grove rundstykker med pålegg</span>
+                <span class="menu-item-price">25kr</span>
+              </h3>
+              <p class="menu-item-desc">
+                Rundstykker eller brød med et utvalg av pålegg som ost, skinke, grønnsaker og egg.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <h2 class="menu-group-heading">Lunsj</h2>
+        <div class="menu-group">
+          <div class="menu-item">
+            <img
+              src="https://res.cloudinary.com/norgesgruppen/images/c_scale,dpr_auto,f_auto,q_auto:eco,w_1600/oiwsbqljze0v2iy8rfsf/kyllingsalat-med-vannmelon"
+              alt="Kyllingsalat"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Kyllingsalat</span>
+                <span class="menu-item-price">50kr</span>
+              </h3>
+              <p class="menu-item-desc">
+                En salat med kylling, grønnsaker som agurk, tomat, paprika og litt pasta eller quinoa for mer fylde. Kan serveres med en lett dressing.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://www.rema.no/wordpress/wp-content/uploads/2023/01/Rema1000-SP2-couscoussalat-wrap-7-1.jpg"
+              alt="Wraps med grønnsaker og hummus"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Wraps med grønnsaker og hummus</span>
+                <span class="menu-item-price">50kr</span>
+              </h3>
+              <p class="menu-item-desc">
+                Grove wraps fylt med hummus, salat, paprika, gulrot og eventuelt grillet kylling eller falafel.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img
+              src="https://www.rema.no/wordpress/wp-content/uploads/2022/05/REC-2021911-1600x1080.jpg"
+              alt="Vegetarlasagne"
+              class="menu-item-img"
+            />
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-name">Vegetarlasagne</span>
+                <span class="menu-item-price">50kr</span>
+              </h3>
+              <p class="menu-item-desc">
+                Laget med grønnsaker som spinat, squash, gulrot og en lett ostesaus, servert med en liten side salat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Mørke modus knapp, blir aktivert i JS koden-->
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <!-- Tom div kode for bakgrunnsinnhold som vil aktiveres i CSS filen -->
+    <div id="bakgrunn">
+        
+    </div>
+
+    <footer><!--Footer for bunnen av nettsiden-->
+        <p>Skaper: Julian River Sandviken Delgado<br>
+        <a href="kontakt.html">akademietheltberg@gmail.com</a></p>
+    </footer>
+
+    <script src="meny.js"></script>
+</body>
+</html>
