@@ -1,6 +1,6 @@
 # Akademiet Kantine nettside prosjekt
 
-Dette prosjektet er basert på kantine nettside til Akademiet Videregående skole. Nettsiden inneholder en **Kantine Hjemmeside** , **Kontakter side**, **Uke-plan** og en egen hjemmeside for **Akademiet Heltberg VGS**.
+Dette prosjektet er basert på kantine nettside til Akademiet Videregående skole. Nettsiden inneholder en **Kantine Hjemmeside** , **Kontakter side**, **Uke-plan** og en egen hjemmeside for **Akademiet Heltberg VGS**. Prosjektet inneholder HTML, CSS og JavaScript.
 
 ## Kilder brukt for å lage programmet (Ikke inkludert bilde kilder)
 
@@ -20,5 +20,7 @@ https://www.shecodes.io/athena/1379-how-to-add-a-footer-with-html-and-css#
 **Hvordan bruke span:** 
 https://www.w3schools.com/tags/att_span.asp
 
+
+# FERDIG
 
 
