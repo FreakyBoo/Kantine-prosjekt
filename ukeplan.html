@@ -30,6 +30,7 @@
     <div class="container">
         <h2>Kantine Ukeplan</h2>
         <div class="ukeplan">
+            <!-- Knapper for hver ukedag, hver knapp kaller JavaScript-funksjonen visMeny med dagens navn som parameter -->
             <button class="dag" onclick="visMeny('mandag')">Mandag</button>
             <button class="dag" onclick="visMeny('tirsdag')">Tirsdag</button>
             <button class="dag" onclick="visMeny('onsdag')">Onsdag</button>
@@ -37,7 +38,9 @@
             <button class="dag" onclick="visMeny('fredag')">Fredag</button>
         </div>
         <div id="meny" class="meny">
+             <!-- Overskrift for menyseksjonen -->
             <h2>Dagens meny</h2>
+             <!-- Paragraf for menyinnhold, som vil bli oppdatert dynamisk av JavaScript -->
             <p id="meny-innhold"></p>
         </div>
     </div>

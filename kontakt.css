@@ -1,9 +1,12 @@
+/* Sentrerer <h1>-teksten, setter skrifttype og fargelegger den mørk oransje */
 h1 {
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:darkorange
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkorange;
 }
 
+/* Angir bakgrunnsfarge og bilde for body, fjerner margin og padding, 
+   og plasserer bildet fast på en spesifikk posisjon */
 body {
     background-color: #f4f4f4;
     margin: 0;
@@ -15,30 +18,34 @@ body {
     background-attachment: fixed;
 }
 
+/* Setter skrifttype, skriftstørrelse og farge for knapper, listeelementer og lenker */
 .knapp, li, a {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
     color: darkorange;
-    
 }
 
+/* Fjerner standard listeformatering og margin/padding for knappen */
 .knapp {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
 
-  li {
+/* Viser listeelementer inline og justerer toppmargin */
+li {
     display: inline;
     margin-top: 100%;
-  }
+}
 
+/* Endrer bakgrunns- og skriftfarge når musen svever over lenker */
 a:hover {
     background-color: rgba(0, 0, 0, 0.725);
     color: white;
     font-size: 25px;
 }
 
+/* Definerer layout for menyseksjonen med sentrert og spredt innhold */
 .meny {
     display: flex;
     justify-content: space-around; 
@@ -46,30 +53,35 @@ a:hover {
     margin-top: 50px;
 }
 
+/* Stiler logo-seksjonen med sentrert og spredt innhold */
 .logo {
     display: flex;
     justify-content: space-around; 
     align-items: center;
     margin-top: 50px;
     height: 50px;
-    width:auto;
+    width: auto;
 }
 
+/* Angir bredde og høyde for bildeelementet i logoen */
 .logo img {
     width: 50px;
     height: 50px; 
 }
 
+/* Fjerner margin og padding fra <h2> */
 h2 {
     margin: 0; 
     padding: 0;
 }
 
+/* Stiler dark-mode for bakgrunn og tekstfarge */
 body.dark-mode {
     background-color: #333;
     color: #fff;
 }
 
+/* Stiler dark-mode for lenker og hover-effekter */
 body.dark-mode a {
     color: #ddd;
 }
@@ -79,8 +91,9 @@ body.dark-mode a:hover {
     color: rgb(221, 155, 49);
 }
 
+/* Stiler footer med senterjustering, padding, bakgrunnsfarge og plassering nederst */
 footer {
-    text-align:center;
+    text-align: center;
     padding: 3px;
     background-color: rgb(52, 46, 46);
     color: white;
@@ -88,7 +101,4 @@ footer {
     bottom: 0; 
     z-index: 10;
     width: 100%;
-  }
-
-
-
+}
