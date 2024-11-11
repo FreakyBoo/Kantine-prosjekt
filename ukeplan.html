@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantine Ukeplan</title>
+    <link rel="stylesheet" href="ukeplan.css">
+</head>
+<body>
+    <header>
+        <h1>Akademiet Heltberg VGS</h1>
+        <nav>
+             <!-- liste for å sortere lenkene -->
+        <ul class="knapp">
+            <!-- Lister som inneholder en HTML hver -->
+            <li><a href="meny.html">Meny</a></li>
+            <li><a href="kantine.html">Kantine</a></li>
+            <li><a href="kontakt.html">Kontakter</a></li>
+            <li><a href="akademiet.html">Akademiet Heltberg VGS</a></li>
+        </ul>
+        </nav>
+         <!-- Mørke modus knapp, blir aktivert i JS koden-->
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <!-- Tom div kode for bakgrunnsinnhold som vil aktiveres i CSS filen -->
+    <div id="bakgrunn">
+        
+    </div>
+    </header>
+
+    <div class="container">
+        <h2>Kantine Ukeplan</h2>
+        <div class="ukeplan">
+            <button class="dag" onclick="visMeny('mandag')">Mandag</button>
+            <button class="dag" onclick="visMeny('tirsdag')">Tirsdag</button>
+            <button class="dag" onclick="visMeny('onsdag')">Onsdag</button>
+            <button class="dag" onclick="visMeny('torsdag')">Torsdag</button>
+            <button class="dag" onclick="visMeny('fredag')">Fredag</button>
+        </div>
+        <div id="meny" class="meny">
+            <h2>Dagens meny</h2>
+            <p id="meny-innhold"></p>
+        </div>
+    </div>
+    <footer> <!--Footer for bunnen av nettsiden-->
+        <p>Skaper: Julian River Sandviken Delgado<br>
+        <a href="kontakt.html">akademietheltberg@gmail.com</a></p>
+      </footer>
+
+    <script src="ukeplan.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+h1{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkorange;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.akademiet.no/wp-content/uploads/2023/04/akademiet_oransje_rgb-1000x398.png");
+    background-position: 90% 10%;
+    background-size: 15% auto; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.knapp, li, a {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: darkorange;
+    
+}
+
+.knapp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin-top: 100%;
+  }
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.725);
+    color: white;
+    font-size: 25px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  height: auto;
+}
+
+.menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+  margin-top: 10%;
+}
+
+.menu-item-img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-desc {
+  line-height: 1.6;
+}
+
+
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode a {
+    color: #ddd;
+}
+
+body.dark-mode a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(221, 155, 49);
+}
+
+footer {
+    text-align:center;
+    padding: 3px;
+    background-color: rgb(52, 46, 46);
+    color: white;
+    position: fixed; 
+    bottom: 0; 
+    z-index: 10;
+    width: 100%;
+    height: 70px;
+  }

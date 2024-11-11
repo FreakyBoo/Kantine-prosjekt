@@ -20,6 +20,31 @@ https://www.shecodes.io/athena/1379-how-to-add-a-footer-with-html-and-css#
 **Hvordan bruke span:** 
 https://www.w3schools.com/tags/att_span.asp
 
+**Tilkbake meldinger**
+•	Hva er ditt første inntrykk av nettsiden?
+Fin men ikke så lett å finne fram til knappene
+•	Er det enkelt å finne ut dagens meny?
+Ikke egentlig, knappen er satt som ukeplan isteden for dagens meny, man må finne det litt ut selv.
+•	Kan du enkelt finne ut hvordan du kan ta kontakt med Akademiet?
+Ja
+•	Er det lett å navigere mellom de ulike sidene på nettsiden?
+Nei, knappene ligger helt intil hverandre og er I samme farge, de blir også borte da du trykker på de som gjør at de endrer plass. Dette gjør det vnskelig å finne riktig knapp.
+•	Er det nok informasjon om hver rett?
+Ja
+•	Synes du det er lett å forstå hva de ulike rettene er?	
+Ja
+•	Er det bilder av maten som gjør det lettere å velge?
+Ja
+•	Hvor ofte bruker du kantinen på Akademiet VGS?
+Jeg bruker kantien på akademiet
+•	Hva er det viktigste for deg når du velger hva du skal spise i kantinen?
+At maten er varm og god
+•	Er det noe tekst som er litt for stor i størrelsen?
+Nei jeg mener det er grei størelse på testene
+•	Er noen andre funksjoner som kan trenges på nettsiden.
+Ja med hele mitt hjerte jeg mener virkelig at du mangler en handlekurv
+
+
 
 # FERDIG
 
