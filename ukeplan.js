@@ -13,7 +13,7 @@ function visMeny(dag) {
     const menyInnhold = document.getElementById('meny-innhold');
     
     // Oppdater innholdet i meny-seksjonen
-    menyInnhold.textContent = ukesmeny[dag];
+    menyInnhold.innerHTML = ukesmeny[dag];
     
     // Vis menyen
     menyElement.style.display = 'block';
